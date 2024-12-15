@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39167022afd4abb4289db01ebe0d5ec5, type: 3}
+  m_Name: StonePickaxe
+  m_EditorClassIdentifier: 
+  ID: stone_pickaxe
+  Type: 3
+  Name: Stone Pickaxe
+  InitialDescription: A rugged tool fashioned from stone, used to extract valuable
+    resources from rocky landscapes and delve into the earth's mysteries.
+  InitialCoins: 40
+  PositiveEffects: 
+  NegativeEffects: 
+  Sprite: {fileID: 21300000, guid: c2332af3dfa058f4b86903fce881e29e, type: 3}
+  Rarity: 0
+  RoughItemType: 2
+  ExactItemTypes: 020000000100000008000000
+  MaxStackAmount: 1
+  Quality: 0
+  AnimationController: {fileID: 22100000, guid: 89bcb812ab5a17e42bdd19fd84f3fbd2, type: 2}
+  AffectedStats:
+    DamageMin: 7
+    DamageMax: 11
+    Startup: 18
+    Duration: 7
+    Cooldown: 15
+    Knockback: 0
+    MeleeDefense: 0
+    ArcheryDefense: 0
+    MagicDefense: 0
+    MaxHealth: 0
+    WalkSpeed: 0
+    XPGain: 0
+    DamageResistance: 0
+    DamagePercentage: 0
+    DodgeChance: 0
+    WorkSpeed: 0
+  AttackOne: 2
+  AttackTwo: 0
+  HitboxPoints:
+  - {x: 0.122892, y: -0.08985543}
+  - {x: -0.060713768, y: -0.087439775}
+  - {x: -0.05616665, y: -0.7075465}
+  - {x: 0.12251735, y: -0.70757127}
+  CanBreakRocks: 1
+  CanBreakTrees: 0

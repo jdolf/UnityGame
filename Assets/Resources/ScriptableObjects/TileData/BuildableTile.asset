@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc82b77714893f4794d98fd5b74236c, type: 3}
+  m_Name: BuildableTile
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 11400000, guid: faa8335afb5317e44b43b3aae603df59, type: 2}
+  - {fileID: 11400000, guid: 9fd1191691924244eb8ed5123a20bd1a, type: 2}
+  - {fileID: 11400000, guid: adcfa2190bc2d7a4ca3c81fe361c60ed, type: 2}
+  - {fileID: 11400000, guid: 5982bbf4dadcd3543a8ed6daa30133f0, type: 2}
+  - {fileID: 11400000, guid: 3caff2fd72c0b2a4d86dc1d513a705db, type: 2}
+  - {fileID: 11400000, guid: c9573825cd924e04c97a77e9bcbdc042, type: 2}
+  - {fileID: 11400000, guid: 303741a13fcdfb048bbc2674a1bdcca1, type: 2}
+  - {fileID: 11400000, guid: bd6e434b95e104e4db4439e41f6ec51f, type: 2}
+  - {fileID: 11400000, guid: e45dde8fd3c5bb34bbd308e66baa0432, type: 2}
+  - {fileID: 11400000, guid: 905bc732c8c60754ca6892592005b670, type: 2}
+  isBuildable: 1
+  isPlantable: 0
+  occupied: 0

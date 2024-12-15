@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8511b2ce573fa4ca62f64d73f6fe1b, type: 3}
+  m_Name: Iron
+  m_EditorClassIdentifier: 
+  ID: iron
+  Type: 3
+  Name: Iron
+  InitialDescription: A versatile material, crucial for crafting durable tools, armor,
+    and machinery.
+  InitialCoins: 50
+  PositiveEffects: 
+  NegativeEffects: 
+  Sprite: {fileID: 21300000, guid: c833201f784390041832525f8440e382, type: 3}
+  Rarity: 0
+  RoughItemType: 0
+  ExactItemTypes: 07000000
+  MaxStackAmount: 10
+  Quality: 0

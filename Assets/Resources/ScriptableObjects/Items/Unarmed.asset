@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39167022afd4abb4289db01ebe0d5ec5, type: 3}
+  m_Name: Unarmed
+  m_EditorClassIdentifier: 
+  Name: 
+  Description: '
+
+
+
+
+    3 - 5 Damage
+
+    34 ( 10 | 9 | 15 ) Attack Duration
+
+
+
+    3
+    - 5 Damage
+
+    69 ( 10 | 9 | 50 ) Attack Duration
+
+
+
+    3 - 5 Damage
+
+    150
+    ( 50 | 50 | 50 ) Attack Duration
+
+
+
+    2 - 4 Damage
+
+    28 ( 8 | 10 | 10 )
+    Attack Duration
+
+'
+  PositiveEffects: 
+  NegativeEffects: 
+  Sprite: {fileID: 0}
+  Rarity: 0
+  ItemType: 2
+  MaxStackAmount: 1
+  Quality: 0
+  AnimationController: {fileID: 0}
+  AffectedStats:
+    DamageMin: 2
+    DamageMax: 4
+    Startup: 8
+    Duration: 10
+    Cooldown: 10
+    Knockback: 0
+    MeleeDefense: 0
+    ArcheryDefense: 0
+    MagicDefense: 0
+    MaxHealth: 0
+    WalkSpeed: 0
+    XPGain: 0
+    DamageResistance: 0
+    DamagePercentage: 0
+    DodgeChance: 0
+    WorkSpeed: 0
+  AttackOne: 1
+  AttackTwo: 0
+  HitboxPoints:
+  - {x: -0.2, y: -0.2}
+  - {x: -0.2, y: 0.2}
+  - {x: 0.2, y: 0.2}
+  - {x: 0.2, y: -0.2}
+  CanBreakRocks: 0
+  CanBreakTrees: 0

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39167022afd4abb4289db01ebe0d5ec5, type: 3}
+  m_Name: Stone Axe
+  m_EditorClassIdentifier: 
+  ID: stone_axe
+  Type: 3
+  Name: Stone Axe
+  InitialDescription: Used to chop down trees.
+  InitialCoins: 40
+  PositiveEffects: '+100% Walk Speed
+
+'
+  NegativeEffects: 
+  Sprite: {fileID: 2027343090, guid: bf13e0fa9de31654b837a6c400397b5c, type: 3}
+  Rarity: 2
+  RoughItemType: 2
+  ExactItemTypes: 02000000010000000c000000
+  MaxStackAmount: 1
+  Quality: 0
+  AnimationController: {fileID: 22100000, guid: 644ab93cc46e22b468cc106a11f5489d, type: 2}
+  AffectedStats:
+    DamageMin: 11
+    DamageMax: 17
+    Startup: 10
+    Duration: 9
+    Cooldown: 15
+    Knockback: 0
+    MeleeDefense: 0
+    ArcheryDefense: 0
+    MagicDefense: 0
+    MaxHealth: 0
+    WalkSpeed: 100
+    XPGain: 0
+    DamageResistance: 0
+    DamagePercentage: 0
+    DodgeChance: 0
+    WorkSpeed: 0
+  AttackOne: 1
+  AttackTwo: 0
+  HitboxPoints:
+  - {x: 0.19019812, y: 0.50103414}
+  - {x: 0.31806272, y: 0.6630025}
+  - {x: 0.18430924, y: 0.816206}
+  - {x: -0.18319342, y: 0.81401515}
+  - {x: -0.2820019, y: 0.67378604}
+  - {x: -0.18297681, y: 0.5001452}
+  CanBreakRocks: 0
+  CanBreakTrees: 1

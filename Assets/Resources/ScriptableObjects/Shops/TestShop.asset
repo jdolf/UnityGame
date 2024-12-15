@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01050ff45d1cb734a99033f9c727e665, type: 3}
+  m_Name: TestShop
+  m_EditorClassIdentifier: 
+  ID: test_shop
+  Type: 5
+  DisplayName: TEST SHOP
+  AcceptedItemTypes: 00000000
+  RegularItems:
+  - Item: {fileID: 11400000, guid: b8a2a90b2c5c26c409c56c3b6e8e4c0a, type: 2}
+    Amount: 10
+    Quality: 0
+  - Item: {fileID: 11400000, guid: 5fce618398f866540b9a5086f33af002, type: 2}
+    Amount: 3
+    Quality: 0
+  - Item: {fileID: 11400000, guid: ac3d50813abcb094f8105cffe5bfe6cd, type: 2}
+    Amount: 1
+    Quality: 0
+  LimitedItems:
+  - Item: {fileID: 11400000, guid: 41f14e6563aae2449ab05ed3110cbe35, type: 2}
+    Amount: 2
+    Quality: 0
+  TotalTargetPoints: 1000
+  TargetPoints: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbd93b18fc980f48b5309463ba8c825, type: 3}
+  m_Name: stone_1
+  m_EditorClassIdentifier: 
+  ID: stone_1
+  Type: 0
+  Description: Mine some stone
+  MaxProgress: 1
+  Difficulty: 0
+  Category: 1
+  Completed: 0
+  RelevantGameDataAttribute: StoneMined

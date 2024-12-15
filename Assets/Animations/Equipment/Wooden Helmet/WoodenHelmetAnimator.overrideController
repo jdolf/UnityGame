@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WoodenHelmetAnimator
+  m_Controller: {fileID: 9100000, guid: b89515896f11781419b3e1d33eb1e467, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 696560aecc2ba534f8e770ac8d62cb75, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e9033e0a8bc501c419b513a3f296d9ba, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 273a937be0f504a43b62d0c0e620716d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1c03a900db1f764409a2c3999b5df3eb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 89fa46d9a84d8544899fea4f6b384815, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c92190c9ac5686149ba9d0529e70c81e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 581c679d75fa00f46bdb68d804325e86, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8295aeada1e95c24abf613029a6ddb6e, type: 2}

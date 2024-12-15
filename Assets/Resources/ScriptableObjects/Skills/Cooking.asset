@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42bf3d69f4f21e04d910e950526bc330, type: 3}
+  m_Name: Cooking
+  m_EditorClassIdentifier: 
+  ID: cooking
+  Type: 6
+  Name: Cooking
+  SkillIcon: {fileID: 21300000, guid: a8496fada9b0c0b4293c7fb68c1b6695, type: 3}

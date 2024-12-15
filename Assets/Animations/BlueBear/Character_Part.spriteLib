@@ -1,0 +1,588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 36
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Idle_Forwards
+    m_Hash: 1572145876
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_idle_forwards
+      m_Hash: -1034068029
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Idle_Backwards
+    m_Hash: -686638225
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_idle_backwards
+      m_Hash: 1415501565
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Idle_Right
+    m_Hash: -1869523667
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_idle_right
+      m_Hash: 1101594052
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Idle_Left
+    m_Hash: -1780189029
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_idle_left
+      m_Hash: 388718655
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Walk_Forwards
+    m_Hash: -1791039715
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_walk_forwards_1
+      m_Hash: -224107614
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_forwards_2
+      m_Hash: 1806512664
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_forwards_3
+      m_Hash: 480903822
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_forwards_4
+      m_Hash: -2100390099
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Walk_Backwards
+    m_Hash: 895634070
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_walk_backwards_1
+      m_Hash: -331180769
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_backwards_2
+      m_Hash: 1967899813
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_backwards_3
+      m_Hash: 38597683
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_backwards_4
+      m_Hash: -1675075184
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Walk_Right
+    m_Hash: -1285629340
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_walk_right_1
+      m_Hash: 486721327
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_right_2
+      m_Hash: -2079615339
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_right_3
+      m_Hash: -217274877
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_right_4
+      m_Hash: 1835545504
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Walk_Left
+    m_Hash: -2096329108
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_walk_left_1
+      m_Hash: 929773994
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_left_2
+      m_Hash: -1369282544
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_left_3
+      m_Hash: -647669626
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_walk_left_4
+      m_Hash: 1191300389
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Swing_Front_Startup
+    m_Hash: -496019166
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_16
+      m_Hash: 546526515
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_17
+      m_Hash: 1469343141
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Swing_Front
+    m_Hash: -516004872
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_18
+      m_Hash: -953452492
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_19
+      m_Hash: -1339275102
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_20
+      m_Hash: -488791099
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_21
+      m_Hash: -1780837549
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Swing_Front_Cooldown
+    m_Hash: 1608243997
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_21
+      m_Hash: -1780837549
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Swing_Back_Startup
+    m_Hash: 1119159022
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_22
+      m_Hash: 215204585
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_23
+      m_Hash: 2077553279
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Swing_Back
+    m_Hash: 1917624804
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_24
+      m_Hash: -441423908
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_25
+      m_Hash: -1833478326
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_26
+      m_Hash: 197002992
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_27
+      m_Hash: 2092512870
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Swing_Back_Cooldown
+    m_Hash: -844525603
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_27
+      m_Hash: 2092512870
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Swing_Right_Startup
+    m_Hash: 1552305566
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_28
+      m_Hash: -335139849
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_29
+      m_Hash: -1694426271
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Swing_Right
+    m_Hash: -1425050598
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_30
+      m_Hash: -70872444
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_31
+      m_Hash: -1933467118
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_32
+      m_Hash: 365491112
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_33
+      m_Hash: 1657783102
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Swing_Right_Cooldown
+    m_Hash: -1649226322
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_33
+      m_Hash: 1657783102
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Swing_Left_Startup
+    m_Hash: -1911692138
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_34
+      m_Hash: -55880035
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_35
+      m_Hash: -1951635957
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Swing_Left
+    m_Hash: 1709541307
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_36
+      m_Hash: 312817585
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_37
+      m_Hash: 1705117479
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_38
+      m_Hash: -182641994
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: blue_bear_39
+      m_Hash: -2112214496
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Swing_Left_Cooldown
+    m_Hash: -1816408523
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: blue_bear_39
+      m_Hash: -2112214496
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Crush_Front_Startup
+    m_Hash: 746278329
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_front_startup_1
+      m_Hash: -1550366795
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_front_startup_2
+      m_Hash: 983438863
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Crush_Front
+    m_Hash: -219969279
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_front_1
+      m_Hash: 158901669
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_front_2
+      m_Hash: -1871580129
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_front_3
+      m_Hash: -411646839
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_front_4
+      m_Hash: 2031243562
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Crush_Front_Cooldown
+    m_Hash: 952665541
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_front_cooldown
+      m_Hash: -2019367107
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Crush_Back_Startup
+    m_Hash: 927270553
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_back_startup_1
+      m_Hash: -1607896464
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_back_startup_2
+      m_Hash: 958407626
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Crush_Back
+    m_Hash: -1019343108
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_back_1
+      m_Hash: -315253446
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_back_2
+      m_Hash: 1950141568
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_back_3
+      m_Hash: 54262806
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_back_4
+      m_Hash: -1654691403
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Crush_Back_Cooldown
+    m_Hash: 62757702
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_back_cooldown
+      m_Hash: -1888145729
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Crush_Right_Startup
+    m_Hash: -1835902715
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_right_startup_1
+      m_Hash: -247608171
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_right_startup_2
+      m_Hash: 1748278575
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Crush_Right
+    m_Hash: -1194156317
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_right_1
+      m_Hash: -421266627
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_right_2
+      m_Hash: 2146085511
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_right_3
+      m_Hash: 149789201
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_right_4
+      m_Hash: -1769402446
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Crush_Right_Cooldown
+    m_Hash: -90074250
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_right_cooldown
+      m_Hash: 1170993550
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Crush_Left_Startup
+    m_Hash: -67247903
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_left_startup_1
+      m_Hash: 245762683
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_left_startup_2
+      m_Hash: -1750115391
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Crush_Left
+    m_Hash: -728291165
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_left_1
+      m_Hash: 35344117
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_left_2
+      m_Hash: -1693311153
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_left_3
+      m_Hash: -334155815
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    - m_Name: player_crush_left_4
+      m_Hash: 1920055930
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Crush_Left_Cooldown
+    m_Hash: 1571805870
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: player_crush_left_cooldown
+      m_Hash: -781750441
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 0}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  m_PrimaryLibraryGUID: 

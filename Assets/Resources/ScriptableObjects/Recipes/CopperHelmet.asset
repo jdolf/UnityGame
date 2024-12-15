@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f169e57b9e855b4db4bc3917f369dc5, type: 3}
+  m_Name: CopperHelmet
+  m_EditorClassIdentifier: 
+  ID: copper_helmet
+  Type: 0
+  TargetItem: {fileID: 11400000, guid: ac3d50813abcb094f8105cffe5bfe6cd, type: 2}
+  TargetAmount: 1
+  NeedsToBeUnlocked: 1
+  Materials:
+  - Item: {fileID: 11400000, guid: 251b427814106554bbb4ce5d1f6f57f7, type: 2}
+    Amount: 5
+  Filter: 0
